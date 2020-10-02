@@ -4,7 +4,7 @@ var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
-var indexRouter = require("./routes/index");
+var indexRouter = express.static(path.join(__dirname, "/app/"));
 var apiRouter = require("./routes/weather");
 
 var cors = require("cors");
