@@ -23,6 +23,13 @@ npm install
 npm start
 ```
 
+
+## API Docs 📘
+
+The API requires only one parameter called `city`.
+
+Call example: `/api?city=London` 
+
 ## Important❗
 
 This repository have a React Front end compiled version of the [WeatherApp-Front](https://github.com/silvergraphs/weatherapp-front) in `/app`, the server serves it automatically in the `/` route, and the API is in the `/api` route.
